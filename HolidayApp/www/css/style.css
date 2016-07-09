@@ -1,1 +1,15 @@
 /* Empty. Add your own CSS if you like */
+.current-date {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.holiday-title {
+  font-weight: bold;
+}
+
+.holiday-subtitle {
+  font-weight: normal;
+}
