@@ -1,11 +1,30 @@
 <ion-view view-title="Holidayz">
   <ion-content>
-      <div class="current-date">
-        July 18th, 2016
+      <div class="current-date" ng-model="today">
+        {{ today }}{{ year }}
       </div>
 
 
     <div class="list">
+      <div class="item holiday-title" ng-repeat="holiday in holidays">
+        {{ holiday.name }}
+  <!--       <div class="holiday-subtitle" ng-show="donuts">
+          This is National Donut Day Subtitle.
+        </div> -->
+      </div>
+
+
+    </div>
+
+
+
+
+  </ion-content>
+</ion-view>
+
+
+
+<!--     <div class="list">
       <div class="item holiday-title" ng-init"donuts = false" ng-click="donuts = !donuts">
         National Donut Day
         <div class="holiday-subtitle" ng-show="donuts">
@@ -21,11 +40,4 @@
       </div>
 
 
-    </div>
-
-
-
-
-  </ion-content>
-</ion-view>
-
+    </div> -->

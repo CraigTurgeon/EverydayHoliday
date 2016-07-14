@@ -1,5 +1,15 @@
 <ion-view view-title="Calendar">
   <ion-content>
-    This is where the calendar will go
+    <calendar calendar-mode="mode" time-selected="onTimeSelected(selectedTime)"></calendar>
+
+    <div class="list calendar-list">
+      <div class="item holiday-title" ng-repeat="holiday in holidays">
+<!--         <div class="holiday-subtitle" ng-show="donuts">
+          This is National Donut Day Subtitle.
+        </div> -->
+      </div>
+
+    </div>
+
   </ion-content>
 </ion-view>
