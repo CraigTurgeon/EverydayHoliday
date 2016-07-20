@@ -2,7 +2,7 @@ INSERT INTO
   holidays
 
 VALUES
-  ( default, );
+  (default, );
 
 
 -- JANUARY
@@ -898,7 +898,6 @@ NATIONAL SALAMI DAY – Sep 7
 NATIONAL PEDIATRIC HEMATOLOGY/ONCOLOGY NURSES DAY – Sep 8
 
 NATIONAL TEDDY BEAR DAY – Sep 9
-2
 -- Stand Up To Cancer Day – Second Saturday in Sep
 NATIONAL SWAP IDEAS DAY – Sep 10
 NATIONAL TV DINNER DAY – Sep 10
@@ -916,9 +915,7 @@ National Programmers Day – 265th Day of the Year
 NATIONAL KIDS TAKE OVER THE KITCHEN DAY – Sep 13
 NATIONAL PEANUT DAY – Sep 13
 -- National Ants on a Log Day – Second Tuesday in Sep
-2
 National Cream Filled Donut Day – Sep 14
-2
 National Linguine Day – Sep 15
 National Felt Hat Day – Sep 15
 National Double Cheeseburger Day – Sep 15
